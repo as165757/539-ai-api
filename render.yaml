@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: 539-ai-api
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
