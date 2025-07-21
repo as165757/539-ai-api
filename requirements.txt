@@ -5,5 +5,8 @@ gunicorn==21.2.0
 requests==2.31.0
 beautifulsoup4==4.12.3
 
+--only-binary :all:
+
+
 # 避免編譯錯誤，強制使用 wheel 安裝
 
