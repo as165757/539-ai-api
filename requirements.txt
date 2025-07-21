@@ -6,4 +6,4 @@ requests==2.31.0
 beautifulsoup4==4.12.3
 
 # 避免編譯錯誤，強制使用 wheel 安裝
---only-binary :all:
+
