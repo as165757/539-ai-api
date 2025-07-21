@@ -7,7 +7,7 @@ services:
     startCommand: gunicorn app:app
     runtime: python
     build:
-      pythonVersion: 3.9.18
+       pythonVersion: 3.10
 =======
 services:
   - type: web
