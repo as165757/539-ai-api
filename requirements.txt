@@ -4,3 +4,6 @@ lunardate==0.2.0
 gunicorn==21.2.0
 requests==2.31.0
 beautifulsoup4==4.12.3
+
+# 避免編譯錯誤，強制使用 wheel 安裝
+--only-binary :all:
