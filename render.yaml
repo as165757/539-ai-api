@@ -7,5 +7,6 @@ services:
     build:
       environment:
         python: 3.10
+buildCommand: pip install --upgrade pip setuptools wheel && pip install --only-binary=:all: -r requirements.txt
 
 
