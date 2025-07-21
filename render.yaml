@@ -2,11 +2,9 @@ services:
   - type: web
     name: 539-ai-api
     env: python
+    runtime: python
     buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
     startCommand: gunicorn app:app
     build:
-      environment:
-        python: 3.10
-buildCommand: pip install --upgrade pip setuptools wheel && pip install --only-binary=:all: -r requirements.txt
-
+      pythonVersion: 3.10.13
 
